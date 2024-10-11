@@ -1,33 +1,25 @@
-#+TITLE: Classic Games Collection
+#+TITLE: Classic games written in C/C++ using the raylib library (WIP)
 #+AUTHOR: Johannes Elsing
 
-* WIP
-
-* Classic Games Written in C/C++ Using the raylib library
-
-This repository contains multiple classic games developed using the raylib library. The games are written in either C or C++, and each game has its own directory with source code, assets, and build scripts.
+This repository contains multiple classic games developed using the raylib library. The games are written in either C or C++.
+Each game has its own directory with source code, assets, and build scripts.
 
 ** Prerequisites
 - Ensure you have a C/C++ compiler (gcc), and make installed on your system.
 
 ** Game List
 
-|----------------+--------------------------------------------------|
-| *Game*         | *Description*                                    |
-|----------------+--------------------------------------------------|
-| Arkanoid       | A classic brick-breaking game.                   |
-|                | [[file:Arkanoid/][Arkanoid]]                                         |
-|----------------+--------------------------------------------------|
-| Asteroids      | A space-themed game where you destroy asteroids. |
-|                | [[file:Asteroids/][Asteroids]]                                        |
-|----------------+--------------------------------------------------|
-| Space Invaders | A version of the classic shooter game.           |
-|                | [[file:SpaceInvaders/][Space Invaders]]                                   |
-|----------------+--------------------------------------------------|
-| Spikes         | A game where you avoid obstacles and collect     |
-|                | items.                                           |
-|                | [[file:Spikes/][Spikes]]                                           |
-|----------------+--------------------------------------------------|
+|----------------+-----------------------------------------------------|
+| *Game*         | *Description*                                       |
+|----------------+-----------------------------------------------------|
+| [[file:Arkanoid/][Arkanoid]]       | A classic brick-breaking game.                      |
+|----------------+-----------------------------------------------------|
+| [[file:Asteroids/][Asteroids]]      | A space-themed game where you destroy asteroids.    |
+|----------------+-----------------------------------------------------|
+| [[file:SpaceInvaders/][Space Invaders]] | A version of the classic shooter game.              |
+|----------------+-----------------------------------------------------|
+| [[file:Spikes/][Spikes]]         | A game where you avoid obstacles and collect items. |
+|----------------+-----------------------------------------------------|
 
 ** Game Folders Structure
 
