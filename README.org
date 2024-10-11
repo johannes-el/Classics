@@ -1,0 +1,58 @@
+#+TITLE: Classic Games Collection
+#+AUTHOR: Johannes Elsing
+
+* WIP
+
+* Classic Games Written in C/C++ Using the raylib library
+
+This repository contains multiple classic games developed using the raylib library. The games are written in either C or C++, and each game has its own directory with source code, assets, and build scripts.
+
+** Prerequisites
+- Ensure you have a C/C++ compiler (gcc), and make installed on your system.
+
+** Game List
+
+|----------------+--------------------------------------------------|
+| *Game*         | *Description*                                    |
+|----------------+--------------------------------------------------|
+| Arkanoid       | A classic brick-breaking game.                   |
+|                | [[file:Arkanoid/][Arkanoid]]                                         |
+|----------------+--------------------------------------------------|
+| Asteroids      | A space-themed game where you destroy asteroids. |
+|                | [[file:Asteroids/][Asteroids]]                                        |
+|----------------+--------------------------------------------------|
+| Space Invaders | A version of the classic shooter game.           |
+|                | [[file:SpaceInvaders/][Space Invaders]]                                   |
+|----------------+--------------------------------------------------|
+| Spikes         | A game where you avoid obstacles and collect     |
+|                | items.                                           |
+|                | [[file:Spikes/][Spikes]]                                           |
+|----------------+--------------------------------------------------|
+
+** Game Folders Structure
+
+Each game folder has the following structure:
+
+- =src/=: Contains the game's source code (C/C++).
+- =Assets/=: Contains sprites, textures, and audio assets used in the game.
+- =Makefile= or =CMakeLists.txt=: Build instructions for compiling the game.
+
+** Dependencies
+
+The Raylib library is included in the =deps/= folder:
+- =deps/include/raylib.h=
+- =deps/lib/linux/libraylib.a=
+
+To build any game, navigate to its folder and run:
+
+#+BEGIN_SRC bash
+  make
+#+END_SRC
+
+For games using CMake, use:
+
+#+BEGIN_SRC bash
+  mkdir build && cd build
+  cmake ..
+  make
+#+END_SRC
